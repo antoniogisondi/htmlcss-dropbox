@@ -44,6 +44,11 @@ ul li{
     margin: 0 15px;
 }
 
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
 .h-col button{
     background-color: rgba(0,97,255,255);
     border: none;
@@ -99,6 +104,10 @@ h1{
     font-size: 15px;
 }
 
+.contain i{
+    position: absolute;
+    top: 115%;
+}
 
 /* END JUMBOTRON LAYOUT */
 
@@ -114,20 +123,23 @@ h1{
     flex-direction: column;
 }
 
+.col-33{
+    width: calc(100% / 3);
+    margin: 0 20px auto;
+    border: 1px solid lightgray;
+}
 .up-contain{
     width:100%;
 }
 
 .down-contain{
-    background-color: blueviolet;
     width:100%;
-    height: 220px;
+    border: 1px solid lightgray;
 }
 
 .central-contain{
-    background-color: cadetblue;
     width:100%;
-    height: 800px;
+    margin: 50px 0;
     display: flex;
     flex-direction: row;
 }
@@ -141,31 +153,87 @@ h1{
     margin-left: 60px;
 }
 
-.col-33{
-    background-color: blueviolet;
-    width: calc(100% / 3);
-    height: 700px;
-    margin: 0 20px auto;
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.col-body h3{
+    font-size: 25px;
+    padding: 20px 35px;
+}
+
+.col-body ul li{
+    display: block;
+    padding: 10px 20px;
+}
+
+.col-body button{
+    background-color:rgba(0,97,255,255) ;
+    color: white;
+    padding: 10px 25px;
+    margin: 30px;
+    border: none;
+    justify-self: center;
+}
+
+#call-us{
+    margin: 30px 70px;
+}
+
+.first-list{
+    padding-bottom: 235px;
+}
+
+.second-list{
+    padding-bottom: 173px;
+}
+
+.col-body span{
+    margin-left: 30px;
+}
+
+hr{
+    width: 20%;
+    margin: 40px 30px;
+}
+
+.col-body h4{
+    padding-left: 30px;
+    
+}
+
+.down button{
+   float: right;
+   padding: 10px 35px;
+}
+
+.down p{
+    padding: 50px 30px 30px ;
 }
 /* END FIRST LAYOUT */
 
 /* SECOND LAYOUT */
 .second-container{
     width: 100%;
-    height: 500px;
 }
 
 .second-row{
     width: 60%;
-    height: 400px;
     margin: 100px auto;
     display: flex;
 }
 
 .col-60{
-    background-color: brown;
     width: 60%;
-    height: 400px;
+}
+
+.col-60 img{
+    width: 100%;
 }
 
 .col-40{

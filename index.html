@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Dropbox</title>
 </head>
     <body>
@@ -50,6 +51,7 @@
                                 esistente </p>
                                 <button>Inizia la tua prova gratuita</button>
                                 <p>Annulla in qualsiasi momento</p>
+                                <i class="fa-solid fa-arrow-down fa-2xl"></i>
                         </div> 
                     </div>
                 </div>
@@ -65,11 +67,115 @@
                         <input id="radio-button" type="radio"> Fatturazione annuale
                     </div>
                     <div class="central-contain">
-                        <div class="col-33"></div>
-                        <div class="col-33"></div>
-                        <div class="col-33"></div>
+                        <div class="col-33">
+                            <div class="head">
+                                <i class="fa-solid fa-user"></i><span>Singolo</span>
+                            </div>
+                            <div class="col-body">
+                                <h3>Professional</h3>
+                                <ul>
+                                    <li><strong>&euro; 12.00</strong></li>
+                                    <li>/mese</li>
+                                </ul>
+
+                                <ul>
+                                    <li><i class="fa-solid fa-user"></i>1 utente</li>
+                                    <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione <br> 
+                                        sicuro</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium<br>
+                                        e condivisione file semplice e <br>
+                                        sicura</li>
+                                </ul>
+                                <button>Prova gratis per 30 giorni</button>
+                                <span>oppure</span> <a href="#">acquista ora</a>
+                                <hr>
+                                <h4>Punti Salienti del piano</h4>
+                                <ul class="first-list">
+                                    <li><i class="fa-solid fa-check" style="color: #025cf7;"></i>Invia file fino a 100 GB con <br> Dropbox Transfert</li>
+                                    <li><i class="fa-solid fa-check" style="color: #025cf7;"></i>Cartelle offline su dispositivi <br> mobili</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-33">
+                            <div class="head">
+                                <i class="fa-solid fa-users"></i><span>Team</span>
+                            </div>
+                            <div class="col-body">
+                                <h3>Advanced</h3>
+                                <ul>
+                                    <li><strong>&euro; 18.00</strong></li>
+                                    <li>/utente/mese</li>
+                                </ul>
+                               
+                                <ul>
+                                    <li><i class="fa-solid fa-users"></i>3 o più utenti</li>
+                                    <li><i class="fa-solid fa-folder"></i>Tutto lo spazio di cui ha bisogno il <br> 
+                                        tuo team</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo e<br>
+                                        per tenere al sicuro tutti i file del<br>
+                                        tuo team</li>
+                                </ul>
+                                <button>Prova gratis per 30 giorni</button>
+                                <span>oppure</span> <a href="#">acquista ora</a>
+                                <hr>
+                                <h4>Punti Salienti del piano</h4>
+                                <ul>
+                                    <li><i class="fa-solid fa-check" style="color: #025cf7;"></i>Nessun limite di spazio per i file</li>
+                                    <li><i class="fa-solid fa-check" style="color: #025cf7;"></i>Cartelle offline su dispositivi <br> mobili</li>
+                                    <li><i class="fa-solid fa-check" style="color: #025cf7;"></i>Risparmio del 50% rispetto alle <br> iscrizioni singole</li>
+                                    <li><i class="fa-solid fa-check" style="color: #025cf7;"></i>Possibilità di inserire nuovi <br> membri del team</li>
+                                    <li><i class="fa-solid fa-check" style="color: #025cf7;"></i>Gestione dei permessi in base ai <br> ruoli</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-33">
+                            <div class="head">
+                                <i class="fa-solid fa-building"></i><span>Azienda</span>
+                            </div>
+                            <div class="col-body">
+                                <h3>Enterprise</h3>
+                                <ul>
+                                    <li><strong>Contattaci</strong></li>
+                                    <li>-</li>
+                                </ul>
+
+                                <ul>
+                                    <li><i class="fa-solid fa-user"></i>10 o più utenti</li>
+                                    <li><i class="fa-solid fa-folder"></i>Soluzioni personalizzabili per la<br> 
+                                        tua azienda</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>Assistenza personalizzata per<br>
+                                        aiutare gli amministratori in una<br>
+                                        gestione su larga scala</li>
+                                </ul>
+                                <button id="call-us">Contattaci</button>
+                                <span>oppure</span> <a href="#">acquista ora</a>
+                                <hr>
+                                <h4>Punti Salienti del piano</h4>
+                                <ul class="second-list">
+                                    <li><i class="fa-solid fa-check" style="color: #025cf7;"></i>Cartelle offline su dispositivi <br> mobili</li>
+                                    <li><i class="fa-solid fa-check" style="color: #025cf7;"></i>Servizio assistenza 24/h</li>
+                                    <li><i class="fa-solid fa-check" style="color: #025cf7;"></i>Possibilità di personalizzazione <br> totale</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="down-contain"></div>
+                    <div class="down-contain">
+                        <div class="head">
+                            <i class="fa-solid fa-building"> </i><span>Team</span>
+                        </div>
+
+                        <div class="col-body down">
+                            <button>Contatta l'ufficio vendite</button>
+                            <h3>Enterprise</h3>
+                            <ul>
+                                <li><strong>Contatta l'ufficio vendite per i prezzi</strong></li>
+                            </ul>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su <br>
+                                qualsiasi scala</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- END FIRST LAYOUT -->
@@ -77,8 +183,21 @@
             <!-- SECOND LAYOUT -->
             <div class="second-container">
                 <div class="second-row">
-                    <div class="col-60"></div>
-                    <div class="col-40"></div>
+                    <div class="col-60">
+                        <img src="./img/partner.png" alt="partner">
+                    </div>
+                    <div class="col-40">
+                        <div class="contain-col">
+                            <h2>Entra in contatto con un <br> partner Dropbox</h2>
+                            <p>Trova un partner Dropbox e HelloSign <br>
+                                di fiducia. Ottieni le soluzioni e i servizi <br>
+                                necessari per raggiungere i tuoi obiettivi <br>
+                                aziendali, tra cui implementazione, <br>
+                                integrazione, gestione e supporto <br>
+                                continui</p>
+                            <button>Trova un partner</button>       
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- END SECOND LAYOUT -->
