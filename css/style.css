@@ -10,6 +10,10 @@ header{
     height: 80px;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .h-row{
@@ -26,6 +30,81 @@ header{
     width: 50%;
     height: 40px;
 }
-
-
 /* END HEADER */
+
+/* START MAIN */
+/* JUMBOTRON LAYOUT */
+.jumbo-container{
+    background-color: rgba(180,208,231,255);
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.j-row{
+    background-color: brown;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.j-col{
+    background-color: crimson;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+/* END JUMBOTRON LAYOUT */
+
+/* FIRST LAYOUT */
+.first-container{
+    width: 100%;
+    height: 900px;
+}
+
+.first-row{
+    background-color: violet;
+    width: 60%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-33{
+    background-color: blueviolet;
+    width: calc(100% / 3);
+    height: 700px;
+    margin: 200px 20px auto;
+    
+}
+/* END FIRST LAYOUT */
+
+/* SECOND LAYOUT */
+.second-container{
+    width: 100%;
+    height: 500px;
+}
+
+.second-row{
+    width: 60%;
+    height: 400px;
+    margin: 100px auto;
+    display: flex;
+}
+
+.col-70{
+    background-color: brown;
+    width: 60%;
+    height: 400px;
+}
+
+.col-30{
+    background-color: darkgreen;
+    width: 40%;
+    height: 400px;
+}
+/* END SECOND LAYOUT */
+/* END MAIN */
