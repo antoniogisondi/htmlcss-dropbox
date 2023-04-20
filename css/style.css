@@ -186,11 +186,11 @@ h1{
 }
 
 .first-list{
-    padding-bottom: 235px;
+    padding-bottom: 236px;
 }
 
 .second-list{
-    padding-bottom: 173px;
+    padding-bottom: 194px;
 }
 
 .col-body span{
@@ -224,7 +224,7 @@ hr{
 
 .second-row{
     width: 60%;
-    margin: 100px auto;
+    margin: 150px auto;
     display: flex;
 }
 
@@ -237,22 +237,36 @@ hr{
 }
 
 .col-40{
-    background-color: darkgreen;
     width: 40%;
-    height: 400px;
+}
+
+.contain-col{
+    margin: 30px 40px;
+}
+
+.contain-col h2{
+    padding: 20px 0;
+}
+
+.contain-col p{
+    padding-bottom:30px;
+    font-size: 15px;
+}
+
+.contain-col button{
+    padding: 10px 10px;
+    background-color:transparent;
+    border: 1px solid black;
 }
 /* END SECOND LAYOUT */
 
 /* THIRD LAYOUT */
 .third-container{
     width: 100%;
-    height: 900px;
 }
 
 .third-row{
-    background-color: darkgoldenrod;
     width: 60%;
-    height: 900px;
     margin: 50px auto;
     display: flex;
     flex-direction: row;
@@ -261,11 +275,32 @@ hr{
 }
 
 .col{
-    background-color: darkcyan;
     width: calc(100% / 3 - 20px);
-    height: 300px;
-    margin: 100px 10px;
+    margin: 25px 10px;
+}
 
+.title-col{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+.title-col h2{
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+.col img{
+    width: 100%;
+}
+
+.col h3{
+    font-size: 20px;
+}
+
+.col p{
+    font-size: 14px;
+    padding-top: 20px;
 }
 /* END THIRD LAYOUT */
 
