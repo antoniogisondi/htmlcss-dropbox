@@ -74,6 +74,8 @@ ul li a{
 .j-row{
     width: 65%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .j-col{
@@ -117,7 +119,9 @@ h1{
 
 /* FIRST LAYOUT */
 .first-container{
-    width: 100%;
+    max-width: 1570px;
+    margin: 0 auto;
+    
 }
 
 .first-row{
@@ -125,6 +129,7 @@ h1{
     margin: 100px auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .col-33{
@@ -134,10 +139,12 @@ h1{
 }
 .up-contain{
     width:100%;
+    margin: 0 20px;
 }
 
 .down-contain{
-    width:100%;
+    width:96%;
+    margin: 0 auto;
     border: 1px solid lightgray;
 }
 
@@ -201,7 +208,7 @@ h1{
     margin-left: 30px;
 }
 
-hr{
+.col-body hr{
     width: 20%;
     margin: 40px 30px;
 }
@@ -227,7 +234,7 @@ hr{
 }
 
 .second-row{
-    width: 60%;
+    width: 58%;
     margin: 150px auto;
     display: flex;
 }
@@ -529,29 +536,28 @@ footer{
 
 .f-row{
     width: 70%;
-    padding: 100px 0 350px 0;
+    padding: 100px 0 150px 0;
     display: flex;
     flex-direction: row;
 }
 
 .f-col{
     width: calc(100% / 5);
-    position: relative;
+}
+
+.f-col hr{
+    margin: 100px 0 0 20px;
+    width: 45%;
 }
 
 .f-col h3{
-    position: absolute;
-    left: 32%;
-    bottom: 0;
+    padding-left: 10%;
     font-size: 20px;
     color: white;
 }
 
-.f-col ul {
-    position: absolute;
-    top: 15%;
-    left: 25%;
-    padding: 20px 0;
+.f-col ul{
+    padding: 20px 5px;
 }
 
 .f-col ul li{
@@ -559,10 +565,5 @@ footer{
     color: white;
     font-size: 13px;
     padding: 7px 0;
-}
-
-.last h3{
-    position: absolute;
-    left: 30%;
 }
 /* END FOOTER */
