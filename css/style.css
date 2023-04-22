@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 /* START HEADER */
 header{
@@ -80,7 +80,7 @@ ul li a{
 
 .j-col{
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 h1{
@@ -188,7 +188,7 @@ h1{
 }
 
 .col-body ul li{
-    font-size: 15px;
+    font-size: 13px;
     display: block;
     padding: 10px 0;
 }
@@ -211,11 +211,15 @@ h1{
 }
 
 .first-list{
-    padding-bottom: 220px;
+    padding-bottom: 165px;
 }
 
 .second-list{
-    padding-bottom: 160px;
+    padding-bottom: 30px;
+}
+
+.third-list{
+    padding-bottom: 130px;
 }
 
 .col-body hr{
@@ -224,8 +228,7 @@ h1{
 }
 
 .col-body h4{
-    padding-left: 30px;
-    
+    padding: 0 30px 30px;
 }
 
 .down button{
